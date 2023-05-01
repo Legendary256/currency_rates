@@ -7,8 +7,8 @@ import 'gui/main_page.dart';
 import './data.dart';
 
 class AskAPI {
-  //Map<String, dynamic> currencyData = {};
-  Map<String, dynamic> currencyData = data_no_internet;
+  Map<String, dynamic> currencyData = {};
+  //Map<String, dynamic> currencyData = data_no_internet;
 
   DateTime startDate = DateTime.now().subtract(const Duration(days: 31));
   DateTime endDate = DateTime.now();
