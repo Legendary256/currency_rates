@@ -31,11 +31,11 @@ class _BootState extends State<Boot> {
           api.printData();
           return const MainPage();
         } else if (snapshot.hasError) {
-          //return const InternetException();
-          return const MainPage();
+          return const InternetException();
+          //return const MainPage();
         } else {
-          return const MainPage();
-          //return const LoadingScreen();
+          //return const MainPage();
+          return const LoadingScreen();
         }
       },
     );
